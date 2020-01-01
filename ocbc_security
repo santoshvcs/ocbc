@@ -7,7 +7,7 @@ echo 'A secure file has been cretaed and sent to ur mail'
 git status
 git add *
 git commit -m"$user securefile has been created"
-#git push origin master
+git push origin master
 else
 echo 'you are not an ocbc user'
 fi
