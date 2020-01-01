@@ -8,6 +8,9 @@ git status
 git add *
 git commit -m"$user securefile has been created"
 git push origin master
+cd /ocbcaf
+mvn package
+cd ..
 else
 echo 'you are not an ocbc user'
 fi
