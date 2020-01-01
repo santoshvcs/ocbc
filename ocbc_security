@@ -10,7 +10,7 @@ git commit -m"$user securefile has been created"
 git push origin master
 cd ocbcaf
 mvn package
-cd ..
+#cd ..
 git add *
 git commit -m"committing pom files"
 git push origin masater
