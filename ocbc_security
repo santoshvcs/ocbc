@@ -1,0 +1,14 @@
+#!/bin/sh
+user=$1
+if [ $user = santosh ];then
+touch santusecuref
+cat > ssecuref
+echo 'A secure file has been cretaed and sent to ur mail'
+git status
+git add santusecuref
+git commit -m"$user securefile has been created"
+#git push origin master
+else
+echo 'you are not an ocbc user'
+fi
+
