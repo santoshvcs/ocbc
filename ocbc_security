@@ -11,6 +11,9 @@ git push origin master
 cd ocbcaf
 mvn package
 cd ..
+git add *
+git commit -m"committing pom files"
+git push origin masater
 else
 echo 'you are not an ocbc user'
 fi
