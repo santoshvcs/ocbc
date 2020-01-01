@@ -1,11 +1,11 @@
 #!/bin/sh
 user=$1
-if [ $user = santosh ];then
-touch santusecuref
-cat > ssecuref
+if [ $user == santosh ];then
+rm -rf /opt/securef
+cat > securef
 echo 'A secure file has been cretaed and sent to ur mail'
 git status
-git add santusecuref
+git add *
 git commit -m"$user securefile has been created"
 #git push origin master
 else
